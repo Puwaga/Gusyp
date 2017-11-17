@@ -1,0 +1,40 @@
+footer{
+     background-color: #fff;
+    overflow: hidden;
+    padding: 60px;
+    border-top: 1px solid #ddd;
+    
+    
+}
+#footer_wrapper{
+   margin: 0 auto;
+    width: 1000px;
+}
+
+.division{
+    float: left;
+    margin-right: 20px;
+    width: 180px;
+   
+}
+.division h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.division h3{
+    font-weight: lighter;
+    font-size: 16px;
+    color: dodgerblue;
+}
+.division ul{
+    list-style-type: none;
+}
+.division ul li{
+    margin-top: 5px;
+    padding: 5px 0;
+}
+
+.division ul li a{
+    text-decoration: none;
+    color: #333;
+}

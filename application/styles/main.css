@@ -1,0 +1,720 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+    font-family: 'Cambay', sans-serif;
+    font-size: 14px; 
+}
+
+
+header{
+    padding: 5px;
+    background-color: #1a2e4f;
+    border-bottom: 1px solid #171E21;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+nav{
+    margin: 0 auto;
+    width: 1200px;
+   
+}
+#ma_logo{
+    float: left;
+    margin-top: 3px;
+    margin-right: 70px;
+    
+}
+.u_n{
+    text-decoration: none;
+    color: #fff;
+}
+.ac_home{
+    text-decoration: none;
+    color: #fff;
+}
+.ma_ico{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #171E21;
+}
+#name_src{
+    float: left;
+    margin-top: 9px;
+    color: #fff;
+    margin-right: 80px;
+}
+#search{
+    float: left;
+    margin-right: 20px;
+    margin-top: 4px;
+}
+.search_input{
+    height: 30px;
+    padding-left: 15px;
+    border: 1px solid #171E21;
+    border-radius: 3px;
+    width: 450px;
+    outline: none;
+}
+
+#noti_btn{
+    float: left;
+    margin-top: 5px;
+    height: 32px;
+}
+#user_not{
+    float: left;
+    margin-right: 17px;
+
+}
+#u_img{
+    height: 26px;
+    width: 26px;
+    float: left;
+    background-color: #ddd;
+    border: 1px solid #c2c2c2;
+    border-radius: 3px;
+}
+.notification{
+    height: 30px;
+    width: 30px;
+    outline-color: dodgerblue;
+    cursor: pointer;
+    background: url(../gusyp/noti.png);
+    background-position: center;
+    background-size: 100%;
+    margin-right: 10px;
+    border: none;
+    background-repeat: no-repeat;
+}
+.friend_noti{
+    height: 30px;
+    width: 30px;
+    outline-color: dodgerblue;
+    cursor: pointer;
+    background: url(../gusyp/fr.png);
+    background-position: center;
+    background-size: 100%;
+    margin-right: 10px;
+    border: none;
+    background-repeat: no-repeat;
+    
+}
+#setup_contianer{
+    margin: 0 auto;
+    width: 1200px;
+}
+#filled{
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 90px;
+    border-radius: 3px;
+    margin-bottom: 50px;
+   
+}
+
+#setup_search_friends{
+    float: left;
+    margin-top: 79px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 3px;
+    width: 550px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.filled_header{
+    padding: 10px 10px;
+    background-color: #ddd;
+    color: #333;
+     border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    
+}
+.filled_body{
+    overflow: hidden;
+}
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2212";
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd; 
+}
+
+div.panel {
+    padding: 35px 10px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.t_input{
+    height: 30px;
+    padding-left: 10px;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    outline-color: darkblue;
+}
+
+.pos{
+    float: left;
+    margin-top: 40px;
+    margin-right: 15px;
+}
+#holder_nick_n{
+    float: left;
+    width: 700px;
+}
+
+.inner h3{
+    font-weight: lighter;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+   
+}
+
+.dt{
+     height: 30px;
+    padding-left: 10px;
+    width: 173px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    outline-color: darkblue;
+    
+}
+
+.s_ti{
+    font-size: 16px;
+}
+.filled_header h3{
+    font-weight: lighter;
+    font-size: 14px;
+}
+.sub_heade{
+    padding: 5px;
+    background-color: #EDEDED;
+}
+.s_main_body{
+    padding: 10px;
+    overflow: hidden;
+}
+.hobis{
+    float: left;
+    margin-right: 10px;
+}
+
+.side_ico{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 10px;
+}
+.filled_footer{
+    padding: 10px 10px;
+    background-color: #ddd;
+    color: #fff;
+     border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    overflow: hidden;
+}
+
+.finish_btn{
+     border: 1px solid #0d182b;
+    height: 35px;
+    width: 100px;
+    float: right;
+    border-radius: 3px;
+    background-color: #1a2e4f;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+#profile_container{
+    margin-top: 47px;
+}
+#profile_back{
+    height: 230px;
+    background-color: #333;
+    z-index: -10;
+}
+#main_profile_con{
+    margin: 0 auto;
+    width: 1200px;
+    padding: 10px;
+    overflow: hidden;
+}
+#p_nav{
+    float: left;
+    margin-left: 270px;
+    width: 800px;
+    margin-top: -53px;
+    position: absolute;
+    color: #fff;
+    z-index: 1;
+}
+#p_nav ul{
+    list-style-type: none;
+    float: left;
+}
+#edit_div{
+    float: right;
+}
+.edit_btn{
+    height: 30px;
+    width: 100px;
+    background-color: #ddd;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline:none;
+    cursor: pointer;
+}
+#p_nav ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+}
+#p_nav ul li a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+#p_nav ul li a:hover{
+    text-decoration: underline;
+}
+.num{
+    text-align: center;
+}
+#profile_pic{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+    background-color: #ddd;
+    border: 1px solid #c2c2c2;
+    border-radius: 3px;
+    float: left;
+   
+}
+.a_t{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.sm_io{
+    width: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+#hode{
+    overflow: hidden;
+   
+}
+#profile_name{
+    margin-left: 210px;
+    width: 950px;
+}
+#profile_name h3{
+    font-weight: lighter;
+    font-size: 20px
+}
+#profile_name h2{
+    font-weight: lighter;
+    font-size: 25px
+}
+#timeline{
+    float: left;
+    margin-top: 20px;
+}
+#side_ab{
+    padding: 10px;
+    background-color: #fff;
+    width: 300px;
+    float: left;
+    margin-right: 15px;
+    border-radius: 3px;
+}
+#side_ab p{
+    padding: 4px;
+}
+
+#timeline_post{
+    float: left;
+    width: 500px;
+    border-radius: 3px;
+    margin-right: 15px;
+}
+#timel_header{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    background-color: #FCFCFC;
+}
+#timel_header h3{
+    font-weight: lighter;
+}
+.post_holder{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    float: left;
+    width: 480px;
+}
+.u_l_pic{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background-color: #ddd;
+    background-image: url(../gusyp/post.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.u_l_name{
+    float: left;
+}
+.u_l_name h3{
+    font-weight:lighter;
+}
+.p_h{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.post_nte{
+    margin-bottom: 6px;
+}
+.post_p_pic{
+    height: 300px;
+    background-color: #ddd;
+    background-image: url(../gusyp/post.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#trends{
+    float: left;
+    width: 300px;
+    border-radius: 3px;
+    height: 500px;
+}
+#trend_header{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+#trend_header h3{
+    font-weight: lighter;
+}
+#trend_body{
+    padding: 10px;
+}
+#trend_body p{
+    font-size: 14px;
+}
+.tren_h3{
+    text-decoration: none;
+    color: dodgerblue;
+    font-size: 16;
+    font-weight: bold;
+}
+.tren_row{
+    margin-bottom: 10px;
+}
+.sm_tx{
+    font-size: 12px;
+    color: dimgray;
+    
+}
+
+#pr_photos{
+    height: 298px;
+    margin-top: 10px;
+}
+
+.album{
+    width: 144px;
+    height: 144px;
+    float: left;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    
+}
+.ur_pic{
+    width: 144px;
+    height: 144px;
+}
+.post_p_footer{
+    background-color: #fff;
+    margin-top: 10px;
+    
+}
+.react{
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+#comment{
+  padding: 10px;  
+    background-color: #fcfcfc;
+    border: 1px solid #ddd;
+}
+
+.gusyp_input{
+    width: 350px;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    margin-right: 6px;
+}
+.gus_btn{
+    height: 30px;
+    background-color: #1a2e4f;
+    color: #fff;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.comment_pic{
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    margin-right: 10px;
+}
+.comment_1 a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+.react_btn{
+    border: none;
+    background-color: #fff;
+    padding: 5px;
+    color: dodgerblue;
+    cursor: pointer;
+    outline-color: dodgerblue;
+}
+.row_1{
+    float: left;
+    width: 455;
+    margin-bottom: 10px;
+}
+
+#contianer_wrapper{
+    margin: 0 auto;
+    margin-top: 47px;
+    width: 1200px;
+    padding-top: 30px;
+    
+}
+
+#trend_home{
+    float: left;
+    width: 300px
+}
+#middle_wall{
+    float: left;
+    width: 500px;
+}
+#active_user{
+   
+    position: fixed;
+    right: 0;
+    margin-top: -21;
+    height: 596px;
+    padding: 10px;
+    overflow: hidden;
+    overflow-y: auto;
+    width: 240px;
+    border-left: 1px solid #ddd;
+}
+
+#edit_pop_modal{
+   
+    position: fixed;
+    background: rgba(0,0,0,0.3);
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+     overflow: hidden;
+    height: 625px;
+    overflow-y: auto; 
+    display: none;
+    padding-right: 17px;
+}
+
+#edit_pop_modal::-webkit-scrollbar { 
+    display: none; 
+}
+#edit_d{
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 20px;
+    background-color: #fff;
+    transition: 0.5s;
+    z-index: 20;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;;
+    margin-bottom: 30px;
+   
+}
+
+
+.pop_header{
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    color: dimgray;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+}
+.pop_header h3{
+    font-weight: lighter;
+    float: left;
+}
+.close_btn{
+    float: right;
+    background:  url(../gusyp/close.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    outline-color: dodgerblue;
+    height: 20px;
+    width: 20px;
+    border: none;
+}
+#edit_body{
+    
+
+   
+}
+#edit_back_prof{
+    height: 200px;
+    background-color: #333;
+    padding: 10px;
+}
+#edit_prof_pic{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+#edit_text{
+    margin-top: 10px;
+}
+
+
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 620px;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
+}
+
+.wrapper {
+    width: 480px;
+    float: left;
+    cursor: pointer;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 10px;
+    
+     /*transform: translate(-50%, -50%);
+    transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+    transition: transform 375ms, width 275ms 100ms, height 375ms;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);*/
+   
+}
+
+.wrapper.open {
+    width: 480px;
+
+    translate transition: transform 375ms, width 375ms, height 275ms 100ms;
+}
+
+.wrapper div.content {
+    margin: auto;
+    transform-origin: top;
+    transform: scale(0.62);
+    border-radius: 3px;
+    background: #fff;
+    overflow: hidden;
+    transition: transform 375ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.wrapper.open .content {
+    transform: scale(1);
+}
+
+.wrapper .img {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.thumb-1 .img {
+    background-image: url(http://i.imgur.com/UGQA9bu.jpg);
+}
+
+
+.text .line {
+    height: 13px;
+    background: #eee;
+    margin-top: 20px;
+}
+
+.title {
+    width: 80%;
+}
+
+.subtitle {
+    width: 60%;
+    
+}
+
+.panel{
+ 
+}
+    

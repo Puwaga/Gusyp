@@ -1,0 +1,132 @@
+header{
+    padding: 5px;
+    background-color: #1a2e4f;
+    border-bottom: 1px solid #171E21;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+nav{
+    margin: 0 auto;
+    width: 1200px;
+   
+}
+#ma_logo{
+    float: left;
+    margin-top: 3px;
+    margin-right: 70px;
+    
+}
+.u_n{
+    text-decoration: none;
+    color: #fff;
+}
+.ac_home{
+    text-decoration: none;
+    color: #fff;
+}
+.ma_ico{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #171E21;
+}
+#name_src{
+    float: left;
+    margin-top: 9px;
+    color: #fff;
+    margin-right: 80px;
+}
+#search{
+    float: left;
+    margin-right: 20px;
+    margin-top: 4px;
+}
+.search_input{
+    height: 30px;
+    padding-left: 15px;
+    border: 1px solid #171E21;
+    border-radius: 3px;
+    width: 450px;
+    outline: none;
+}
+
+#noti_btn{
+    float: left;
+    margin-top: 5px;
+    height: 32px;
+}
+#user_not{
+    float: left;
+    margin-right: 17px;
+
+}
+#u_img{
+    height: 26px;
+    width: 26px;
+    float: left;
+    background-color: #ddd;
+    border: 1px solid #c2c2c2;
+    border-radius: 3px;
+}
+.notification{
+    height: 30px;
+    width: 30px;
+    outline-color: dodgerblue;
+    cursor: pointer;
+    background: url(../gusyp/noti.png);
+    background-position: center;
+    background-size: 100%;
+    margin-right: 10px;
+    border: none;
+    background-repeat: no-repeat;
+}
+.friend_noti{
+    height: 30px;
+    width: 30px;
+    outline-color: dodgerblue;
+    cursor: pointer;
+    background: url(../gusyp/fr.png);
+    background-position: center;
+    background-size: 100%;
+    margin-right: 10px;
+    border: none;
+    background-repeat: no-repeat;
+    
+}
+#setup_contianer{
+    margin: 0 auto;
+    width: 1200px;
+}
+#filled{
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 90px;
+    border-radius: 3px;
+    margin-bottom: 50px;
+   
+}
+
+#setup_search_friends{
+    float: left;
+    margin-top: 79px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 3px;
+    width: 550px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.filled_header{
+    padding: 10px 10px;
+    background-color: #ddd;
+    color: #333;
+     border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    
+}
+.filled_body{
+    overflow: hidden;
+}
